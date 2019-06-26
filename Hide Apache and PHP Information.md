@@ -7,7 +7,7 @@
 - Modify: `ServerSignature Off`
 
 ### PHP 
-- `~$ vi /etc/php/5.6/fpm/php.ini`
+- `~$ vi /etc/php/<Version>/fpm/php.ini`
 - Modify: `expose_php Off`
 
 ## Advanced configuraion
