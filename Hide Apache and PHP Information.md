@@ -11,6 +11,7 @@
 - Modify: `expose_php Off`
 
 ## Advanced configuraion
+### Apache
 - `~$ a2enmod security2`
 - `~$ a2enmod headers`
 - `~$ vi /etc/apache2/mods-enabled/security2.conf`
@@ -21,5 +22,7 @@
 - `~$ vi /etc/apache2/sites-enabled/000-default.conf`
 - Add: `Header always unset "X-Powered-By"`
 - Add: `Header unset "X-Powered-By"`
+
+### PHP 
 - `~$ vi /etc/php/<Version>/fpm/php.ini`
 - Modify: `expose_php Off`
